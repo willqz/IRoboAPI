@@ -1,0 +1,9 @@
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\bin\Debug\netcoreapp2.2\IRobo.Domain.deps.json
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\bin\Debug\netcoreapp2.2\IRobo.Domain.dll
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\bin\Debug\netcoreapp2.2\IRobo.Domain.pdb
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.csprojAssemblyReference.cache
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.AssemblyInfoInputs.cache
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.AssemblyInfo.cs
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.csproj.CoreCompileInputs.cache
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.dll
+C:\Cursos\02-Projects\IROBOAPI\IROBOAPI\IRobo.Domain\obj\Debug\netcoreapp2.2\IRobo.Domain.pdb
