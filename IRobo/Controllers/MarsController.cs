@@ -18,7 +18,7 @@ namespace IRobo.Controllers
         {
             Bot bot = new Bot();
 
-            if(bot.ValidCommand(command))
+            if(!bot.ValidCommand(command))
                 return StatusCode(StatusCodes.Status400BadRequest, "Bad Request");
 
             try

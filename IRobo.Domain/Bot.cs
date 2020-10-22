@@ -29,8 +29,8 @@ namespace IRobo.Domain
             char[] characters = command.ToUpper().ToCharArray();
             foreach (var item in characters)
             {
-                if (item != 'M' || item != 'L' || item != 'R')
-                    valid = false;
+                if (item != 'M' && item != 'L' && item != 'R')
+                   return valid = false;
             }
             return valid;
         }
