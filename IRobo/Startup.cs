@@ -42,6 +42,14 @@ namespace IRobo
                         Version = "v1",
                     });
             });
+
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+            
+            services.AddMvc();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -74,6 +82,11 @@ namespace IRobo
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseMvc();
         }
     }
 }

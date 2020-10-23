@@ -11,13 +11,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IRobo.Controllers
 {
-    [Route("api/rest/mars")]
+    [Route("api/rest/marsangular")]
     [ApiController]
-    public class MarsController : ControllerBase
+    public class MarsAngularController : ControllerBase
     {
         [HttpGet("{command}")]
         [EnableCors("AllowOrigin")]
-        public ActionResult Mars(string command)
+        public ActionResult MarsAngular(string command)
         {
             Bot bot = new Bot();
 
@@ -28,7 +28,7 @@ namespace IRobo.Controllers
             {
                 var moviment = bot.Action(command);
 
-                return Ok(moviment);
+                return Ok(new Moviment { Coords = moviment });
             }
             catch
             {

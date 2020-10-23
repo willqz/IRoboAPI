@@ -37,7 +37,7 @@ namespace IRobo.Domain
 
         public string Action(string command)
         {
-            char[] characters = command.ToCharArray();
+            char[] characters = command.ToUpper().ToCharArray();
 
             foreach (var item in characters)
             {
